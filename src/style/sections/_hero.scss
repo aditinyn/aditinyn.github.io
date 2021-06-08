@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 #hero {
   min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: #F8DDC3; //peaches - bisque
   font-weight: 400;
-  color: $dark-blue-text;
+  color: #f5f5f5;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -15,7 +17,7 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // If you want to set a background image on the hero section, uncomment these with your custom image
 
   /* background: url("/src/assets/[your-image].png");
   background-position: center;
@@ -26,10 +28,11 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-family: 'Allura', cursive;
+    font-size: 10.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;

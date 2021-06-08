@@ -25,29 +25,29 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Who I Am" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade bottom duration={1000} delay={400} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
           </Col>
           <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={800} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Hello, random person on the internet! I’m Aditi, an 18 year old from Bangalore, India. My pronouns are she/her and I’m an incoming freshman at New York University (NYU) studying Mathematics and Computer Science.'} 
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "Apart from cursing the founders of math, frantically opening 10 StackOverflow tabs at once, and wasting time on Discord, I enjoy working out, jamming to music, meeting new people, and learning new things."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                  {paragraphThree || 'Oh I almost forgot, I also play tennis and am a recruited athlete at NYU.'}
+                  </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -56,7 +56,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Tell me more
                     </a>
                   </span>
                 )}
