@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import GitHubButton from 'react-github-btn';
 
 const GithubButton = () => (
@@ -27,3 +27,4 @@ const GithubButton = () => (
 );
 
 export default GithubButton;
+*/

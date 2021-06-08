@@ -12,10 +12,10 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
+        <Fade bottom duration={1000} delay={600} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta || 'Reach out to me if you have any questions or if you just want to make a friend, I would love to talk!'}
             </p>
             <a
               target="_blank"
@@ -23,7 +23,7 @@ const Contact = () => {
               className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
             >
-              {btn || "Let's Talk"}
+              {btn || "Let's do it"}
             </a>
           </div>
         </Fade>

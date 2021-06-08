@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Aditi Narayan', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,27 +31,8 @@ export const projectsData = [
     img: 'project.jpg',
     title: '',
     info: '',
-    info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,36 +40,41 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'aditinyn@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
+    //{
+      //id: nanoid(),
+      //name: 'envelope',
+      //url: 'mailto:aditinyn@gmail.com',
+    //},
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/adiii.narayan/',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'discord',
+      url: 'https://discord.com/users/637715696549232656',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/aditi-narayan-089a861a4/',
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCHNTBz5VNK5GFQ-_sSItPNA',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
